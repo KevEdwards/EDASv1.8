@@ -43,9 +43,9 @@ There is basically a command mode, editor mode and debug mode.
 
 On start-up you are in command mode:-
 
-Shift + Home			Enter Command Mode from editor
-$						Perform a Directory listing
-L"edasv1.8.src"			Load source file into memory
+Shift + Home          Enter Command Mode from editor
+$                     Perform a Directory listing
+L"edasv1.8.src"       Load source file into memory
 
 Enter 'X' to exit command mode and go into Editor mode.
 
