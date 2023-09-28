@@ -29,8 +29,8 @@ You will need to create an emulator disk image with 'a1.8.prg' and 'edasv1.8.src
 
 Run 'a1.8.prg' on a C128 / emulator with:-
 
-BLOAD"A1.8"
-SYS 7168
+ BLOAD"A1.8"
+ SYS 7168
 
 Load up the tokenised source file 'edasv1.8.src' - see instructions below.
 
