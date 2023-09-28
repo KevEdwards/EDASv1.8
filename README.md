@@ -25,10 +25,14 @@ I hope it is useful to people who have an interest in 6502 assembly language pro
 
 To build the code you will need to use the pre-assembled editor/assembler to assemble itself!
 
-Run a1.8.prg on a C128 / emulator
+You will need to create an emulator disk image with 'a1.8.prg' and 'edasv1.8.src' ( such as edas.d71 ) and mount it to an emulator drive.
+
+Run 'a1.8.prg' on a C128 / emulator with:-
+
+BLOAD"A1.8"
+SYS 7168
 
 Load up the tokenised source file 'edasv1.8.src' - see instructions below.
-
 
 
 # Additional Notes
@@ -39,9 +43,9 @@ There is basically a command mode, editor mode and debug mode.
 
 On start-up you are in command mode:-
 
-*Shift + Home			Enter Command Mode from editor
-*$						Perform a Directory listing
-*L"FILENAME"			Load source file into memory
+Shift + Home			Enter Command Mode from editor
+$						Perform a Directory listing
+L"edasv1.8.src"			Load source file into memory
 
 Enter 'X' to exit command mode and go into Editor mode.
 
