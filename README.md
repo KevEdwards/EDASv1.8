@@ -15,7 +15,7 @@ The editor/assembler is contained within a single tokenised source file ( edasv1
 
 I have also included a de-tokenised version of the source file ( edasv1.8.asm ) so you can browse this using your text editor of choice.
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.PNG)
 
 
 I hope it is useful to people who have an interest in 6502 assembly language programming and to those who wish to know how games were made in the 1980s.
